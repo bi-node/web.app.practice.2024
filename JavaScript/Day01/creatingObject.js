@@ -15,6 +15,7 @@ const rolename='guest';
 
 person[admin]=rolename;
 console.log(person);
+//update
 
 
 
