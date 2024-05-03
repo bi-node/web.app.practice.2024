@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Rule 1 */
+        p {
+            color: blue; /* specificity: 0, 0, 0, 1 */
+        }
+        /* Rule 2 */
+        .special {
+            color: red; /* specificity: 0, 0, 1, 0 */
+        }
+        /* Rule 3 */
+        #unique {
+            color: green; /* specificity: 0, 1, 0, 0 */
+        }
+        /* Rule 4 */
+        p.special {
+            color: orange; /* specificity: 0, 0, 2, 1 */
+        }
+        /* Rule 5 */
+        .container p {
+            color: purple; /* specificity: 0, 0, 1, 1 */
+        }
+        /* Rule 6 */
+        #unique.special {
+            color: cyan; /* spegicificity: 0, 2, 1, 0 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="special" id="unique">Hello, world!</p>
+    </div>
+</body>
+</html>
