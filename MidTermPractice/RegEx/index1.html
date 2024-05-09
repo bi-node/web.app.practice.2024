@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+    <form action="">Ip address
+        <input type="text" pattern="25[0-5]|2[0-4][0-9]|[01]?[0-9]{1,2}">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+   
+    <!-- email address -->
+    <!--  <input type="text" pattern="[a-z]+\w*[._\-]\w+@[a-z]+\.[a-z]{2,3}"> -->
+    <!-- Date format -->
+    <input type="text" pattern="(0[1-9]|[12][0-9]|3[01])\.(0[1-9]|1[0-2])\.([12][0-9]{3})">
+    <button type="submit">Submit</button>
+     <!-- time format -->
+     <h3>Time format</h3>
+     <form action="time">
+        <input type="text" pattern="([1-9]|1[0-2]):[0-5][0-9]"><span> pm</span>
+        <button type="submit">Submit</button>
+     </form>
+
+     <br><br><br>
+
+     <h3>Hexa Decimal Value</h3>
+     <form action="hexa">
+        <input type="text" pattern="#(?:[0-9A-Fa-f]{3}){1,2}\b">
+        <button type="submit">Submit</button>
+     </form>
+     <form action="hexa">Numbers
+        <input type="text" pattern="[+-]?[0-9]+">
+        <button type="submit">Submit</button>
+     </form>
+
+
+
+<body>
+    
+</body>
+</html>

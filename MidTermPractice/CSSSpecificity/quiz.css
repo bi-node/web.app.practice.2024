@@ -1,0 +1,25 @@
+body{
+    background-color: yellow;
+    color: magenta;
+}
+p{
+    color: orange;
+}
+
+.central, .item{
+    color: green;
+    background-color: blue;
+}
+
+li{
+    color: brown;
+    background-color: cyan;
+}
+
+li #item{
+    color: red;
+    background-color: beige;
+}
+div > p{
+    color:pink;
+}
